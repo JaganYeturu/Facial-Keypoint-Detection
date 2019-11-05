@@ -39,6 +39,8 @@ class Net(nn.Module):
         self.ll1 = nn.Linear(11 * 11 * 256, 1000)
         self.ll2 = nn.Linear(1000, 1000)
         self.ll3 = nn.Linear(1000, 136)
+
+	# Comment added
         
         ## Note that among the layers to add, consider including:
         # maxpooling layers, multiple conv layers, fully-connected layers, and other layers (such as dropout or batch normalization) to avoid overfitting
