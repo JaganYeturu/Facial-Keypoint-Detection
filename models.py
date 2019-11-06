@@ -35,6 +35,7 @@ class Net(nn.Module):
         self.conv4 = nn.Conv2d(128, 256, 3)
         self.pool4 = nn.MaxPool2d(2, 2)
         self.norm4 = nn.BatchNorm2d(256)
+        # to do  Convolutional Layer 5
         
         self.ll1 = nn.Linear(11 * 11 * 256, 1000)
         self.ll2 = nn.Linear(1000, 1000)
