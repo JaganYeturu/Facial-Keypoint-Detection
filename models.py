@@ -44,6 +44,7 @@ class Net(nn.Module):
 	# Comment added
         
         ## Note that among the layers to add, consider including:
+## Note that among the layers to add, consider including:
         # maxpooling layers, multiple conv layers, fully-connected layers, and other layers (such as dropout or batch normalization) to avoid overfitting
 
         
