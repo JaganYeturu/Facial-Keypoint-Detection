@@ -24,9 +24,9 @@ class Net(nn.Module):
         self.pool1 = nn.MaxPool2d(2, 2)  # Convolutional Layer 1
         self.norm1 = nn.BatchNorm2d(32)  # Convolutional Layer 1
         # Convolutional Layer 2
-        self.conv2 = nn.Conv2d(32, 64, 5) # Convolutional Layer 2
-        self.pool2 = nn.MaxPool2d(2, 2)   # Convolutional Layer 2
-        self.norm2 = nn.BatchNorm2d(64)   # Convolutional Layer 2
+        self.conv2 = nn.Conv2d(32, 64, 5)
+        self.pool2 = nn.MaxPool2d(2, 2)   
+        self.norm2 = nn.BatchNorm2d(64)   
         # Convolutional Layer 3
         self.conv3 = nn.Conv2d(64, 128, 5) 
         self.pool3 = nn.MaxPool2d(2, 2)     
